@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/TDS/style/styles.css" />
+    <title>Practicando con JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header__h1" id="h1">Bienvenidos a la tu tienda favorita</h1>
+      </div>
+    </header>
+    <div class="container">
+      <p>Sean todos bienvenidos a su tienda de mangas favorita.</p>
+      <h2 class="container__h2">PASEN Y PIDANLO QUE QUIERAN</h2>
+      <br />
+      <p>Tenemos los ultimos tomos de tus mangas favoritos</p>
+    </div>
+    <div class="container">
+      <p id="lista">Lista de merchandising</p>
+      <ul>
+        <li class="merchandising">Dragon ball(mangas y figuras)</li>
+        <li class="merchandising">Naruto(mangas y figuras)</li>
+        <li class="merchandising">Jujutsu(mangas y figuras)</li>
+        <li class="merchandising">One Piece(mangas y figuras)</li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="grid">
+        <div class="trago">
+          <div class="trago__img">
+            <a href="/JS/pages/DragonB.html">
+              <img
+                src="https://i.pinimg.com/originals/97/c7/f8/97c7f8a84f81d1526dd95e64c0ebeafb.png"
+                width="150"
+                height="200"
+                alt="DB"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="trago" id="ItemNaruto">
+          <div class="trago__img">
+            <a href="/JS/pages/Naruto.html">
+              <img
+                src="http://3.bp.blogspot.com/-gp0wp8yXqzc/UMosPGAAXRI/AAAAAAAABW8/24IIPDPSvTc/s1600/naruto1.png"
+                width="150"
+                height="200"
+                alt="Naruto"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="trago" id="ItemJujutsu">
+          <div class="trago__img">
+            <a href="/JS/pages/Jujutsu.html">
+              <img
+                src="https://1.bp.blogspot.com/-pOHi9CNo5eU/YJwdXToUBLI/AAAAAAAAr9I/h0rfdii4S5EVuR1FyjjIO-ccmGHIlhUhQCLcBGAsYHQ/s300-c/Itadori.Yuuji.full.3326401.png"
+                width="150"
+                height="200"
+                alt="Jujutsu"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="trago" id="ItemOP">
+          <div class="trago__img">
+            <a href="/JS/pages/OnePiece.html">
+              <img
+                src="https://i.pinimg.com/originals/4c/64/ca/4c64ca4ec1497b3c0361f471a2d03aba.png"
+                width="150"
+                height="200"
+                alt="One Piece"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="trago">
+          <div class="trago__img" id="Sugerencias">
+            <a href="/JS/pages/Sugerencias.html">
+              <img
+                src="/TDS/images/Sugerencias.png"
+                alt="Sugerencias"
+                width="150"
+                height="200"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <div class="container">
+      <h2>Crea infinitas esferas del Dragon</h2>
+      <input type="button" value="Crear esfera" id="createBoxBtn" />
+      <div id="boxCtn"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
