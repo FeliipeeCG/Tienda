@@ -39,8 +39,8 @@ p, .p__Violeta {
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#7a0101), to(black));
-  background: linear-gradient(#7a0101, black);
+  background: -webkit-gradient(linear, left top, left bottom, from(#000101), to(#3b0101));
+  background: linear-gradient(#000101, #3b0101);
   font-size: 1.6rem;
 }
 
@@ -61,7 +61,7 @@ html {
 }
 
 .container__h3 {
-  color: #7a0101;
+  color: #000101;
   border: none;
 }
 
@@ -167,7 +167,7 @@ td {
 }
 
 #menu {
-  background-color: black;
+  background-color: #3b0101;
 }
 
 #menu ul {
@@ -188,13 +188,13 @@ td {
 }
 
 #menu ul li a:hover {
-  background: #7a0101;
+  background: #000101;
 }
 
 .modal-body {
   color: whitesmoke;
-  background: -webkit-gradient(linear, left top, left bottom, from(#7a0101), to(black));
-  background: linear-gradient(#7a0101, black);
+  background: -webkit-gradient(linear, left top, left bottom, from(#000101), to(#3b0101));
+  background: linear-gradient(#000101, #3b0101);
 }
 
 .links {

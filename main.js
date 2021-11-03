@@ -45,7 +45,7 @@ for (const peluche of peluches) {
 }
 let salida = false;
 
-alert(nombreIngresado + " gracias por tu compra, vuelva prontos!");
+alert(nombreIngresado + " gracias por tu visita!");
 
 //Creador de Esferas
 let createBoxBtn = document.getElementById("createBoxBtn");
