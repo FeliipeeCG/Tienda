@@ -1,0 +1,28 @@
+$root-size: 2rem;
+//Parrafo
+p {
+  font-size: 1.5rem;
+  color: $color-primario;
+  font-weight: bolder;
+}
+.tex_carr {
+  background-color: rgba(0, 0, 0, 0.753);
+  color: whitesmoke;
+}
+//Extend y Operaciones
+.p__Violeta {
+  @extend p;
+  color: $violeta;
+  font-size: 2 * $root-size;
+}
+//Condicional
+.p__Azul {
+  font-size: $root-size * 2;
+  @if $root-size == 4px {
+    color: rgb(158, 8, 218);
+  } @else if $root-size == 6px {
+    color: rgb(182, 75, 224);
+  } @else if $root-size == 8px {
+    color: rgba(183, 0, 255, 0.938);
+  }
+}
