@@ -1,3 +1,6 @@
+let valoracion = parseInt(prompt("Del 1 al 10, cuanto te gusta Jujutsu?"));
+localStorage.setItem("El cliente valoró Jujutsu con un ", valoracion);
+
 //COMPRA DE JUJUTSU
 let ItemJujutsu = document.getElementById("ItemJujutsu");
 ItemJujutsu.addEventListener("click", () => {

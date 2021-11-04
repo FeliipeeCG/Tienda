@@ -1,4 +1,4 @@
-//Ingreso
+localStorage.setItem("Abrimos la tienda", "Entró un cliente");
 let nombreIngresado = prompt(
   "¡Bienvenido! ingrese su nombre por favor"
 ).toUpperCase();
@@ -12,7 +12,11 @@ if (nombreIngresado == "") {
   alert("Bienvenido " + nombreIngresado);
 }
 console.log("El cliente se llama " + nombreIngresado);
-
+localStorage.setItem("el cliente se llama", nombreIngresado);
+let valoracion = parseInt(
+  prompt("Del 1 al 10, cuanto te gusta el anime/manga en general")
+);
+localStorage.setItem("Al cliente valoró el anime/manga con un ", valoracion);
 //DOM
 let h1 = document.getElementById("h1");
 console.log(h1.innerHTML);

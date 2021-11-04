@@ -1,3 +1,5 @@
+let valoracion = parseInt(prompt("Del 1 al 10, cuanto te gusta One Piece?"));
+localStorage.setItem("El cliente valoró OP con un ", valoracion);
 //COMPRA DE ONE PIECE
 let ItemOP = document.getElementById("ItemOP");
 ItemOP.addEventListener("click", () => {

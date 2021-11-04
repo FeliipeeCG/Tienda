@@ -1,3 +1,5 @@
+let valoracion = parseInt(prompt("Del 1 al 10, cuanto te gusta DB?"));
+localStorage.setItem("El cliente valoró DB con un ", valoracion);
 //EVENTOS de Compras
 //COMPRA DE DB
 let ItemDB = document.getElementById("ItemDB");
