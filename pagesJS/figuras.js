@@ -3,7 +3,7 @@ class Figura {
     this.nombre = nombre;
     this.imagen = imagen;
     this.precio = precio;
-    this.altura = this.altura;
+    this.altura = altura;
   }
   //Nombre y precio unidos
   getTitle() {
@@ -18,5 +18,8 @@ class Figura {
   }
   getSrcImage() {
     return this.imagen;
+  }
+  getAltura() {
+    return this.altura;
   }
 }
