@@ -14,7 +14,7 @@ estante_figura.push(figura4);
 
 //Estante
 let Estante = document.getElementById("Estante");
-$(document).ready(() => {
+document.ready(() => {
   for (let i = 0; i < estante_figura.length; i++) {
     let objeto_figura = estante_figura[i];
     $("#Estante").append(
