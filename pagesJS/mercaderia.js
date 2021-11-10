@@ -21,10 +21,7 @@ $(document).ready(() => {
       `<div id="div${objeto_figura.getId()}"> 
         <h2>${objeto_figura.getTitle()}</h2>  
         <image src= ${objeto_figura.getSrcImage()}></image>
-        <button id= "btn${objeto_figura.getId()}">Compralo! </button> 
-  
-  
-  
+        <button id= "btn${objeto_figura.getId()}">Compralo! </button>   
     </div> 
   `
     );
