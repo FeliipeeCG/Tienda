@@ -1,8 +1,8 @@
 //Figuras
-let figura1 = new Figura("Goku Blue", "./images/figuraGoku.png", 9000, "55cm");
-let figura2 = new Figura("Kurama", "./images/figuraKurama.png", 8500, "50cm");
-let figura3 = new Figura("Itadori", "./images/figuraItadori.png", 7000, "55cm");
-let figura4 = new Figura("Luffy", "./images/figuraLuffy.png", 8000, "50cm");
+let figura1 = new Figura("Goku Blue", "/images/figuraGoku.png", 9000, "55cm");
+let figura2 = new Figura("Kurama", "/images/figuraKurama.png", 8500, "50cm");
+let figura3 = new Figura("Itadori", "/images/figuraItadori.png", 7000, "55cm");
+let figura4 = new Figura("Luffy", "/images/figuraLuffy.png", 8000, "50cm");
 
 //Figuras del Estante
 
@@ -14,7 +14,7 @@ estante_figura.push(figura4);
 
 //Estante
 let Estante = document.getElementById("Estante");
-document.ready(() => {
+$(document).ready(() => {
   for (let i = 0; i < estante_figura.length; i++) {
     let objeto_figura = estante_figura[i];
     $("#Estante").append(
