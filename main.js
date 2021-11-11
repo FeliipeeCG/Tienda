@@ -31,6 +31,36 @@ console.log(merchandising[3].innerHTML);
 let salida = false;
 
 alert(nombreIngresado + " gracias por tu visita!");
+//Figuras
+
+class Figura {
+  constructor(nombre, imagen, precio, altura) {
+    this.nombre = nombre;
+    this.imagen = imagen;
+    this.precio = precio;
+    this.altura = altura;
+  }
+  //Nombre y precio unidos
+  getTitle() {
+    return this.nombre + " $" + this.precio;
+  }
+  //Propiedades
+  getId() {
+    return this.id;
+  }
+  getNombre() {
+    return this.nombre;
+  }
+  getSrcImage() {
+    return this.imagen;
+  }
+  getAltura() {
+    return this.altura;
+  }
+  getPrecio() {
+    return this.precio;
+  }
+}
 
 //Creador de Esferas
 let createBoxBtn = document.getElementById("createBoxBtn");

@@ -22,12 +22,13 @@ $(document).ready(() => {
         <h2>${objeto_figura.getTitle()}</h2>  
         <image src= ${objeto_figura.getSrcImage()}></image>
         <button id= "btn${objeto_figura.getId()}">Compralo! </button> 
-  
     </div> 
   `
     );
     $(`#btn${objeto_figura.getId()}`).on("click", function () {
-      alert(`Compraste la figura de ${objeto_figura.getNombre()}`);
+      alert(
+        `Compraste la figura de ${objeto_figura.getNombre()} por $ ${objeto_figura.getPrecio()}`
+      );
     });
   }
 });
