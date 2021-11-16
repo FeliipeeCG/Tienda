@@ -269,6 +269,23 @@ legend, label {
   margin: 20px 0;
 }
 
+#creador {
+  width: 300px;
+  height: 100vh;
+  background-color: #020202;
+  position: fixed;
+  right: -300px;
+  top: 0;
+}
+
+#abrirCreador {
+  cursor: pointer;
+}
+
+#cerrarCreador {
+  cursor: pointer;
+}
+
 .container-carousel {
   margin-left: auto;
   margin-right: auto;

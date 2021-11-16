@@ -41,3 +41,19 @@ label {
 #boxCtn {
   margin: 20px 0;
 }
+
+//Perfil del creador
+#creador {
+  width: 300px;
+  height: 100vh;
+  background-color: rgb(2, 2, 2);
+  position: fixed;
+  right: -300px;
+  top: 0;
+}
+#abrirCreador {
+  cursor: pointer;
+}
+#cerrarCreador {
+  cursor: pointer;
+}

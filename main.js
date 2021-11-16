@@ -17,6 +17,7 @@ let valoracion = parseInt(
   prompt("Del 1 al 10, cuanto te gusta el anime/manga en general")
 );
 localStorage.setItem("Al cliente valoró el anime/manga con un ", valoracion);
+
 //DOM
 let h1 = document.getElementById("h1");
 console.log(h1.innerHTML);
@@ -63,6 +64,7 @@ class Figura {
 }
 
 //Creador de Esferas
+$(".tituloEsfera").append("<h2>Crea infinitas esferas del Dragon</h2>");
 let createBoxBtn = document.getElementById("createBoxBtn");
 let boxCtn = document.getElementById("boxCtn");
 createBoxBtn.addEventListener("click", createBox);
@@ -72,3 +74,11 @@ function createBox() {
   box.classList.add("esfera");
   boxCtn.appendChild(box);
 }
+
+//Perfil del Creador
+$("#abrirCreador").click(function (e) {
+  $("#creador").css("right", 0);
+});
+$("#cerrarCreador").click(function (e) {
+  $("#creador").css("right", -300);
+});
