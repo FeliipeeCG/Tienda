@@ -19,13 +19,14 @@ $(document).ready(() => {
     let objeto_figura = estante_figura[i];
     $("#estante").append(
       `<div id="div${objeto_figura.getId()}"> 
-        <h2>${objeto_figura.getTitle()}</h2>  
+        <h4>${objeto_figura.getTitle()}</h4>  
         <image src= ${objeto_figura.getSrcImage()}></image>
-        <button id= "btn${objeto_figura.getId()}">Compralo! </button> 
+        <br/>
+        <button id= "compra">¡COMPRALO! </button> 
     </div> 
   `
     );
-    $(`#btn${objeto_figura.getId()}`).on("click", function () {
+    $(`#compra`).on("click", function () {
       alert(
         `Compraste la figura de ${objeto_figura.getNombre()} por $ ${objeto_figura.getPrecio()}`
       );
