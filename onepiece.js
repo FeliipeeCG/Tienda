@@ -1,6 +1,4 @@
-let valoracion = parseInt(prompt("Del 1 al 10, cuanto te gusta One Piece?"));
-localStorage.setItem("El cliente valoró OP con un ", valoracion);
-//COMPRA DE ONE PIECE
+//COMPRA DE ONE PIECE (manga)
 let ItemOP = document.getElementById("ItemOP");
 ItemOP.addEventListener("click", () => {
   let numero1 = parseInt(
@@ -17,37 +15,26 @@ ItemOP.addEventListener("click", () => {
   }
   console.log("Se llevan " + numero1 + " tomos de One Piece");
   console.log(tomosDeOP);
-  let figuraLuffy = document.getElementById("figuraLuffy");
-  figuraLuffy.addEventListener("click", () => {
-    let numero3 = parseInt(
-      prompt(
-        "Cuantas figuras como esta queres?" +
-          "\n(si no quieres ninguno, contestá en 0)"
-      )
-    );
-    if (numero3 >= 0) {
-      tomosJujutsu = alert("Gracias por la compra");
-      console.log("Se llevan " + numero3 + " figuras de Luffy");
+  console.log(numero1);
+});
 
-      //Paguemos
+//COMPRA DE ONE PIECE (Figura)
+let figuraLuffy = document.getElementById("figuraLuffy");
+figuraLuffy.addEventListener("click", () => {
+  let numero3 = parseInt(
+    prompt(
+      "Cuantas figuras como esta queres?" +
+        "\n(si no quieres ninguno, contestá en 0)"
+    )
+  );
+  if (numero3 >= 0) {
+    Snakeman = alert("Gracias por tu compra");
+  }
+  console.log("Se llevan " + numero3 + " figuras de Luffy");
+});
 
-      let Pagar = document.getElementById("Pagar");
-      Pagar.addEventListener("click", () => {
-        alert(
-          "FACTURACION" +
-            "\n Mangas comprados= " +
-            numero1 +
-            "\n Total = $" +
-            numero1 * 500 +
-            "\n Figuras compradas = " +
-            numero3 +
-            "\n Total = $" +
-            numero3 * 8000 +
-            "\n Total a pagar= " +
-            (numero1 * 500 + numero3 * 8000)
-        );
-        console.log("El total a pagar es $" + (numero1 * 500 + numero3 * 8000));
-      });
-    }
-  });
+//Pagar
+let Pagar = document.getElementById("Pagar");
+Pagar.addEventListener("click", () => {
+  numero1 * 500 + numero3 * 8000;
 });

@@ -70,7 +70,7 @@ html {
   display: -ms-grid;
   display: grid;
   background: url(../images/Cantinero.png) center;
-  width: 95%;
+  width: 100%;
   height: 964px;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -87,7 +87,7 @@ html {
   display: -ms-grid;
   display: grid;
   background: url(../images/Cantinero.png) center;
-  width: 95%;
+  width: 100%;
   height: 964px;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
@@ -104,11 +104,11 @@ html {
   display: -ms-grid;
   display: grid;
   background-color: rgba(73, 233, 10, 0.918);
-  width: 95%;
-  height: 700px;
+  width: 100%;
+  height: 500px;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-  border: 15px solid rgba(0, 0, 0, 0.418);
+  border: 10px solid rgba(0, 0, 0, 0.418);
   justify-items: center;
   -webkit-box-align: end;
       -ms-flex-align: end;
@@ -272,7 +272,7 @@ legend, label {
 #creador {
   width: 300px;
   height: 100vh;
-  background-color: #020202;
+  background-color: rgba(8, 8, 8, 0.568);
   position: fixed;
   right: -300px;
   top: 0;

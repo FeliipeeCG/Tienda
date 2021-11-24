@@ -1,5 +1,3 @@
-let valoracion = parseInt(prompt("Del 1 al 10, cuanto te gusta Rellenuto?"));
-localStorage.setItem("El cliente valoró Naruto con un ", valoracion);
 //COMPRA DE NARUTO
 let ItemNaruto = document.getElementById("ItemNaruto");
 ItemNaruto.addEventListener("click", () => {

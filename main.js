@@ -1,22 +1,27 @@
 localStorage.setItem("Abrimos la tienda", "Entró un cliente");
-let nombreIngresado = prompt(
-  "¡Bienvenido! ingrese su nombre por favor"
-).toUpperCase();
-if (nombreIngresado == "JUAN" || nombreIngresado == "FELIPE") {
-  alert("Te llamas como yo, somos tocayos");
-  console.log("Se llama como yo, se ganó un regalo secreto");
-}
-if (nombreIngresado == "") {
-  alert("Ingrese un nombre por favor :3");
-} else {
-  alert("Bienvenido " + nombreIngresado);
-}
-console.log("El cliente se llama " + nombreIngresado);
-localStorage.setItem("el cliente se llama", nombreIngresado);
-let valoracion = parseInt(
-  prompt("Del 1 al 10, cuanto te gusta el anime/manga en general")
-);
-localStorage.setItem("Al cliente valoró el anime/manga con un ", valoracion);
+
+//Perfil del cliente
+
+$("#presentarme").click(function (e) {
+  let nombreIngresado = prompt(
+    "¡Bienvenido! ingrese su nombre por favor"
+  ).toUpperCase();
+  if (nombreIngresado == "JUAN" || nombreIngresado == "FELIPE") {
+    alert("Te llamas como yo, somos tocayos");
+    console.log("Se llama como yo, se ganó un regalo secreto");
+  }
+  if (nombreIngresado == "") {
+    alert("Ingrese un nombre por favor :3");
+  } else {
+    alert("Bienvenido " + nombreIngresado);
+  }
+  console.log("El cliente se llama " + nombreIngresado);
+  localStorage.setItem("el cliente se llama", nombreIngresado);
+  let valoracion = parseInt(
+    prompt("Del 1 al 10, cuanto te gusta el anime/manga en general")
+  );
+  localStorage.setItem("Al cliente valoró el anime/manga con un ", valoracion);
+});
 
 //DOM
 let h1 = document.getElementById("h1");
@@ -30,8 +35,6 @@ console.log(merchandising[2].innerHTML);
 console.log(merchandising[3].innerHTML);
 
 let salida = false;
-
-alert(nombreIngresado + " gracias por tu visita!");
 //Figuras
 
 class Figura {
@@ -64,7 +67,6 @@ class Figura {
 }
 
 //Creador de Esferas
-$(".tituloEsfera").append("<h2>Crea infinitas esferas del Dragon</h2>");
 let createBoxBtn = document.getElementById("createBoxBtn");
 let boxCtn = document.getElementById("boxCtn");
 createBoxBtn.addEventListener("click", createBox);
