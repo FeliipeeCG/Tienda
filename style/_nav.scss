@@ -9,12 +9,7 @@
 }
 #menu ul li {
   display: inline-block;
-}
-#menu ul li a {
-  color: $color-primario;
-  padding: 20px 80px;
-  display: block;
-  text-decoration: none;
+  padding: 20px 125px;
 }
 #menu ul li a:hover {
   background: $color-secundario;
@@ -23,7 +18,15 @@
   color: whitesmoke;
   background: linear-gradient($color-secundario, $negro);
 }
-
+#menuE ul li {
+  display: inline-block;
+}
+#menuE ul li a {
+  color: $color-primario;
+  padding: 20px 80px;
+  display: block;
+  text-decoration: none;
+}
 .links {
   color: yellow;
   text-decoration: none;

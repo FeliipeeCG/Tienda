@@ -1,7 +1,6 @@
 localStorage.setItem("Abrimos la tienda", "Entró un cliente");
 
 //Perfil del cliente
-
 $("#presentarme").click(function (e) {
   let nombreIngresado = prompt(
     "¡Bienvenido! ingrese su nombre por favor"
@@ -76,6 +75,47 @@ function createBox() {
   box.classList.add("esfera");
   boxCtn.appendChild(box);
 }
+//Comprar y pagar
+$("#figuraGoku").click(function (e) {
+  let valoracion = parseInt(prompt("Cuantas figuras de goku vas a querer?"));
+  let facturaFG = alert(
+    "Por las " +
+      valoracion +
+      " figuras de Goku" +
+      "\nVas a pagar $" +
+      valoracion * 9000
+  );
+});
+$("#figuraKurama").click(function (e) {
+  let valoracion = parseInt(prompt("Cuantas figuras de Kurama vas a querer?"));
+  let facturaFK = alert(
+    "Por las " +
+      valoracion +
+      " figuras de Kurama" +
+      "\nVas a pagar $" +
+      valoracion * 8500
+  );
+});
+$("#figuraItadori").click(function (e) {
+  let valoracion = parseInt(prompt("Cuantas figuras de Itadori vas a querer?"));
+  let facturaFI = alert(
+    "Por las " +
+      valoracion +
+      " figuras de Itadori" +
+      "\nVas a pagar $" +
+      valoracion * 7000
+  );
+});
+$("#figuraLuffy").click(function (e) {
+  let valoracion = parseInt(prompt("Cuantas figuras de Luffy vas a querer?"));
+  let facturaFL = alert(
+    "Por las " +
+      valoracion +
+      " figuras de Luffy" +
+      "\nVas a pagar $" +
+      valoracion * 8000
+  );
+});
 
 //Perfil del Creador
 $("#abrirCreador").click(function (e) {

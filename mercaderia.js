@@ -24,7 +24,6 @@ $(document).ready(() => {
         <image src= ${objeto_figura.getSrcImage()}></image>
         <br/>
         <br/>
-        <button id= "compra">¡COMPRALO! </button> 
         <br/>
         <br/>
     </div> 
