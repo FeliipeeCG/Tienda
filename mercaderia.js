@@ -19,10 +19,14 @@ $(document).ready(() => {
     let objeto_figura = estante_figura[i];
     $("#estante").append(
       `<div id="div${objeto_figura.getId()}"> 
-        <h4>${objeto_figura.getTitle()}</h4>  
+        <h2>${objeto_figura.getTitle()}</h2>  
+        <br/>
         <image src= ${objeto_figura.getSrcImage()}></image>
         <br/>
+        <br/>
         <button id= "compra">¡COMPRALO! </button> 
+        <br/>
+        <br/>
     </div> 
   `
     );
