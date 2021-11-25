@@ -124,3 +124,20 @@ $("#abrirCreador").click(function (e) {
 $("#cerrarCreador").click(function (e) {
   $("#creador").css("right", -300);
 });
+//json
+$(document).ready(() => {
+  const url_json = "json_local.json";
+  $("#creador").prepend('<button id = "boton">Mas Info</button>');
+  $("#boton").click(() => {
+    $.getJSON(url_json, function (respuesta, estado) {
+      if (estado === "success") {
+        for (const dato of respuesta) {
+          $("#creador").prepend(`<div>
+    <h2>${dato.title}</h2>
+    <p>${dato.body}</p>
+    </div>`);
+        }
+      }
+    });
+  });
+});
