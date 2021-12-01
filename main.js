@@ -118,10 +118,10 @@ $("#figuraLuffy").click(function (e) {
 });
 
 //Perfil del Creador
-$("#abrirCreador").click(function (e) {
+$("#abrirCreador").click(function (a) {
   $("#creador").css("right", 0);
 });
-$("#cerrarCreador").click(function (e) {
+$("#cerrarCreador").click(function (a) {
   $("#creador").css("right", -300);
 });
 //json
@@ -140,4 +140,11 @@ $(document).ready(() => {
       }
     });
   });
+});
+//carrito
+$("#abrirCreadorB").click(function (e) {
+  $("#creadorB").css("right", 0);
+});
+$("#cerrarCreadorB").click(function (e) {
+  $("#creadorB").css("right", -300);
 });

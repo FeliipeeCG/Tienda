@@ -19,11 +19,12 @@
         <h1 class="header__h1" id="h1">Bienvenidos a la tu tienda favorita</h1>
       </div>
     </header>
+
     <div class="container">
       <p>Sean todos bienvenidos a su tienda de mangas favorita.</p>
-      <br />
-      <input type="button" value="Presentarme" id="presentarme" />
       <input type="button" value="Conocer al vendedor" id="abrirCreador" />
+      <br />
+      <br />
       <h2 class="container__h2">LISTA DE MERCHANDISING</h2>
       <p id="lista">Contamos con cosas de:</p>
       <ul>
@@ -34,14 +35,22 @@
       </ul>
     </div>
     <div class="container">
-      <h2 class="container__h2">TENEMOS TODOS LOS TOMOS DE ESTOS MANGAS</h2>
+      <h2 class="container__h2">TENEMOS EL PRIMER TOMO DE ESTOS MANGAS</h2>
     </div>
     <br />
     <div class="container">
+      <h2>
+        Recuerda que los mangas mensuales tienen 4 capitulosy los semanales
+        tienen 9 :)
+      </h2>
+      <br />
       <div class="grid">
         <div class="trago">
           <div class="trago__img">
-            <a href="./pages/DragonB.html">
+            <a
+              href="https://www.mangatigre.com/manga/dragon-ball-super/1"
+              target="_blank"
+            >
               <img
                 src="https://i.pinimg.com/originals/97/c7/f8/97c7f8a84f81d1526dd95e64c0ebeafb.png"
                 width="150"
@@ -53,7 +62,7 @@
         </div>
         <div class="trago" id="ItemNaruto">
           <div class="trago__img">
-            <a href="./pages/Naruto.html">
+            <a href="https://www.mangatigre.com/manga/boruto/1" target="_blank">
               <img
                 src="http://3.bp.blogspot.com/-gp0wp8yXqzc/UMosPGAAXRI/AAAAAAAABW8/24IIPDPSvTc/s1600/naruto1.png"
                 width="150"
@@ -65,7 +74,10 @@
         </div>
         <div class="trago" id="ItemJujutsu">
           <div class="trago__img">
-            <a href="./pages/Jujutsu.html">
+            <a
+              href="https://www.mangatigre.com/manga/jujutsu-kaisen/1"
+              target="_blank"
+            >
               <img
                 src="https://1.bp.blogspot.com/-pOHi9CNo5eU/YJwdXToUBLI/AAAAAAAAr9I/h0rfdii4S5EVuR1FyjjIO-ccmGHIlhUhQCLcBGAsYHQ/s300-c/Itadori.Yuuji.full.3326401.png"
                 width="150"
@@ -77,7 +89,10 @@
         </div>
         <div class="trago" id="ItemOP">
           <div class="trago__img">
-            <a href="./pages/OnePiece.html">
+            <a
+              href="https://www.mangatigre.com/manga/one-piece/1"
+              target="_blank"
+            >
               <img
                 src="https://i.pinimg.com/originals/4c/64/ca/4c64ca4ec1497b3c0361f471a2d03aba.png"
                 width="150"
@@ -87,51 +102,28 @@
             </a>
           </div>
         </div>
-        <div class="trago">
-          <div class="trago__img" id="Sugerencias">
-            <a href="./pages/Sugerencias.html">
-              <img
-                src="./images/Sugerencias.png"
-                alt="Sugerencias"
-                width="150"
-                height="200"
-              />
-            </a>
-          </div>
-        </div>
       </div>
     </div>
+    <br />
     <br />
     <br />
     <div class="container">
-      <h2 class="container__h2">LISTAS DE FIGURAS</h2>
+      <h2 class="container__h2">TAMBIEN CONTAMOS CON ESTAS FIGURAS</h2>
       <br />
       <div id="estante" class="grid3"></div>
       <br />
-      <h2 class="container__h2">¡COMPRA LA QUE MAS TE GUSTE!</h2>
-      <div id="menu" class="header__menu">
-        <nav>
-          <ul>
-            <li>
-              <button id="figuraGoku" value="figuraGoku">GOKU BLUE</button>
-            </li>
-            <li>
-              <button id="figuraKurama" value="figuraKurama">KURAMA</button>
-            </li>
-            <li>
-              <button id="figuraItadori" value="figuraItadori">ITADORI</button>
-            </li>
-            <li>
-              <button id="figuraLuffy" value="figuraLuffy">
-                LUFFY SNAKEMAN
-              </button>
-            </li>
-          </ul>
-        </nav>
-      </div>
     </div>
     <br />
+    <div class="container">
+      <h2 class="container__h2">HORA DE COMPRAR</h2>
+      <a href="./pages/Productos.html"
+        ><img
+          src="./images/paga.png"
+          
+          alt="volvamos al menu"
+      /></a>
     <br />
+    <br>
     <div class="container">
       <h2 class="container__h2">CREA INFINITAS ESFERAS DEL DRAGON</h2>
       <div class="tituloEsfera"></div>
@@ -161,8 +153,11 @@
         </a>
       </div>
     </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="main.js"></script>
+    <script src="carrito.js"></script>
+    <script src="pedidos.js"></script>
     <script src="mercaderia.js"></script>
   </body>
 </html>
