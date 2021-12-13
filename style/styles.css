@@ -26,7 +26,7 @@ p, .p__Violeta {
 
 .header__h1 {
   color: #fdfbfb;
-  background-image: url(https://thumbs.gfycat.com/EntirePeriodicBear-size_restricted.gif);
+  background-image: url(https://64.media.tumblr.com/4dbf422b4f27c29439814452d501afba/aecf5906f98d0526-76/s500x750/3ccf64ca502437a29f9b727a30c6d9c3a2d49ef0.gifv);
   text-align: center;
   font-family: "Tourney", cursive;
   font-size: 4rem;
@@ -39,15 +39,39 @@ p, .p__Violeta {
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#000101), to(#3b0101));
-  background: linear-gradient(#000101, #3b0101);
+  background: -webkit-gradient(linear, left top, left bottom, from(#031997), to(black));
+  background: linear-gradient(#031997, black);
   font-size: 1.6rem;
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+h4 {
+  color: black;
+}
+
+h6 {
+  color: whitesmoke;
 }
 
 html {
   font-size: 62.5%;
   margin: 0;
   padding: 0;
+}
+
+li {
+  color: black;
+}
+
+.text-center {
+  color: whitesmoke;
 }
 
 .container__h2, .container__h3 {
@@ -61,7 +85,7 @@ html {
 }
 
 .container__h3 {
-  color: #000101;
+  color: #031997;
   border: none;
 }
 
@@ -184,7 +208,7 @@ td {
 }
 
 #menu {
-  background-color: #3b0101;
+  background-color: black;
 }
 
 #menu ul {
@@ -199,13 +223,13 @@ td {
 }
 
 #menu ul li a:hover {
-  background: #000101;
+  background: #031997;
 }
 
 .modal-body {
   color: whitesmoke;
-  background: -webkit-gradient(linear, left top, left bottom, from(#000101), to(#3b0101));
-  background: linear-gradient(#000101, #3b0101);
+  background: -webkit-gradient(linear, left top, left bottom, from(#031997), to(black));
+  background: linear-gradient(#031997, black);
 }
 
 #menuE ul li {

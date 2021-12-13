@@ -3,13 +3,29 @@ body {
   background: linear-gradient($color-secundario, $negro);
   font-size: 1.6rem;
 }
-
+h2 {
+  color: black;
+}
+h3 {
+  color: black;
+}
+h4 {
+  color: black;
+}
+h6 {
+  color: whitesmoke;
+}
 html {
   font-size: 62.5%;
   margin: 0;
   padding: 0;
 }
-
+li {
+  color: black;
+}
+.text-center {
+  color: whitesmoke;
+}
 //Container
 .container {
   &__h2 {
